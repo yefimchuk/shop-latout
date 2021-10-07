@@ -1,0 +1,144 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body, html
+{
+overflow-x: hidden;
+}
+.wrapper
+{
+	margin: 0 auto;
+	max-width: 1600px;
+	width: 100%
+}
+nav
+{
+    margin: 0 auto;
+    max-width: 1250px;
+    width: 100%;
+}
+#checkbox-menu,
+ .toggle
+{
+display: none;
+}
+.menu
+{
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    margin-top:3px;
+}
+.menuText
+{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 25px;
+/* identical to box height, or 155% */
+
+
+text-decoration: none;
+}
+
+
+
+.headerLoginF
+{
+		display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	margin-left: 180px;
+	text-decoration: none;
+}
+.headerLoginF:hover
+{
+	background: white;
+}
+.headerLoginButton
+{
+	
+
+background: white;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+ margin-left: 30px;
+ border: 1px solid #F53855;
+box-sizing: border-box;
+border-radius: 50px;
+height: 45px;
+width: 170px;
+
+border-radius: 50px;
+color: #F53855;
+}
+.headerLoginButton:hover
+{
+ background: #F53838;
+
+ color: white;
+}
+.headerImgF
+{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: row;
+	margin-right: 157px;
+	text-decoration: none;
+}
+.headerImgF
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+.headerImgFe
+{
+	margin-right:10px;
+}
+.headerImgText
+{
+
+text-decoration: none;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+transition: .2s linear
+padding: 10px 15px;
+
+
+color: #0B132A;
+}
+
+.headerLoginText
+{
+
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+
+color: #0B132A;
+
+}
