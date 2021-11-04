@@ -75,7 +75,7 @@ transition: background .1s linear;
 }
 .headerLoginButton
 {
-	
+
 
 background: white;
 font-size: 16px;
@@ -130,7 +130,7 @@ font-weight: 700;
 line-height: 24px;
 letter-spacing: 0em;
 text-align: left;
-transition: .2s linear
+transition: .2s linear;
 padding: 10px 15px;
 
 
@@ -147,17 +147,9 @@ line-height: 19px;
 letter-spacing: 0em;
 text-align: center;
 
-color: #0B132A;
-
-}
+color: #0B132A;}
 
 
-
-
-
-
-
-}
 .intro
 {
  width: 100%;
@@ -180,7 +172,7 @@ line-height: 70px;
 letter-spacing: 0em;
 text-align: left;
 
-  
+
 
 }
 .introTextLeft1_1
@@ -235,7 +227,7 @@ transition: .1s linear;
 }
 .introButtonLeft1:hover
 {
-	
+
 
 	width: 258px;
 	height: 68px;
@@ -278,7 +270,7 @@ line-height: 70px;
 letter-spacing: 0em;
 text-align: left;
 
-  
+
 
 }
 .introTextLeft1_1
@@ -358,7 +350,7 @@ transition: .2s linear;
 	background-size: 50% auto;
 }
 
-@media screen  and (max-width: 829px) 
+@media screen  and (max-width: 829px)
 {
 	.intro
 {
@@ -383,7 +375,7 @@ line-height: 70px;
 letter-spacing: 0em;
 text-align: left;
 
-  
+
 
 }
 .introTextLeft1_1
@@ -454,12 +446,17 @@ margin-bottom: 20px;
 .introLeft
 {
 	margin-left: 120px;
-}	
+}
 }
 
 
 
-
+.statisticsImg1
+{
+	width: 55px;
+	height: 55px;
+	transition: .1s ease;
+}
 
 
 
@@ -517,7 +514,7 @@ margin-bottom: 20px;
 	margin-bottom: 40px;
 	width: 460px;
 	height: 100%;
-	
+
 }
 .statisticsBlock2
 {
@@ -540,7 +537,7 @@ background: #EEEFF2;
 	margin-bottom: 40px;
 	width: 460px;
 	height: 100%;
-	
+
 }
 .statisticsBlock4
 {
@@ -564,7 +561,7 @@ background: #EEEFF2;
 	margin-bottom: 40px;
 	width: 460px;
 	height: 100%;
-	
+
 }
 .statisticsText1
 {
@@ -585,7 +582,7 @@ color: #0B132A;
 	font-family: 'Rubik', sans-serif;
 position: relative;
 bottom: 13px;
-	
+
 
 font-weight: normal;
 font-size: 16px;
@@ -685,7 +682,7 @@ margin-left: 10px;
 }
 .PlanFlex
 {
-	
+
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -706,7 +703,7 @@ margin-left: 10px;
 	align-items: flex-start;
 	justify-content: center;
 	flex-direction: row;
-	
+
 }
 .Plan
 {
@@ -717,7 +714,7 @@ margin-left: 10px;
 	top:100px;
 	background: linear-gradient(0deg, #FFFFFF, #F7F7F7);
 
-	
+
 }
 
 .Plan2
@@ -811,7 +808,7 @@ text-align: center;
 color: #0B132A;
 margin-top: 20px;
 }
-.PlanSelectText3 
+.PlanSelectText3
 {
 	position: relative;
 	bottom: 20px;
@@ -1043,7 +1040,7 @@ color: #0B132A;
 	height: 300px;
 	width: 100%;
 	margin-top: 50px;
-	background: linear-gradient(0deg, #FCFCFC,#FFFFFF); 
+	background: linear-gradient(0deg, #FCFCFC,#FFFFFF);
 }
 .ReviewsFlex
 {
@@ -1072,7 +1069,7 @@ margin-right: 50px;
 border: 2px solid #DDDDDD;
 box-sizing: border-box;
 border-radius: 10px;
-margin-right: 50px;	
+margin-right: 50px;
 }
 .ReviewsTop
 {
@@ -1247,7 +1244,7 @@ color: #4F5665;
 }
 .PanelReviewsLeft
 {
-	
+
 	margin-left: 130px;
 	margin-bottom: 30px;
 }
@@ -1297,7 +1294,7 @@ background: linear-gradient(0deg,#F8F8F8,#FCFCFC);
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-  
+
 }
 .SubscribeFlex
 {
@@ -1496,7 +1493,7 @@ font-weight: 600;
 line-height: 30px;
 letter-spacing: 0em;
 text-align: left;
-	
+
  }
  .FooterRight1TextTop
  {
@@ -1534,7 +1531,7 @@ color: #4F5665;
  	right: 28px;
  }
 
-@media screen  and (max-width: 829px) 
+@media screen  and (max-width: 829px)
 {
 	 .menu
     {
@@ -1567,7 +1564,7 @@ color: #4F5665;
         width: 100%;
         color: white;
          background: #F53838;
-    
+
         margin-bottom: 3px;
     }
     .headerLoginText
@@ -1596,7 +1593,7 @@ color: #4F5665;
     height: 330px;
     transition: all .2s linear;
 
-    }                                      
+    }
  .intro
  {
  	height: 1100px;
@@ -1621,7 +1618,7 @@ line-height: 30px;
 letter-spacing: 0em;
 text-align: left;
 
-  
+
 
 }
 .introLeft
@@ -1700,11 +1697,11 @@ margin-bottom: 80px;
 	width: 100%;
 	height: 100%;
 }
-	
+
 .statistics
 {
 	width: 100%;
-	
+
 	z-index: 2;
 	background: #FFFFFF;
 border-radius: 10px;
@@ -1726,7 +1723,7 @@ border-radius: 10px;
 	display: none;
 }
 
-.statisticsText1Flex 
+.statisticsText1Flex
 {
 	width: 50px;
 	display: flex;
@@ -1753,13 +1750,13 @@ border-radius: 10px;
 	transition: .1s ease;
 	margin-right: 40px;
 }
-.statisticsBlock1:hover 
+.statisticsBlock1:hover
 {
 	height: 60px;
 	margin-bottom: 0px;
 
 }
-.statisticsBlock3:hover 
+.statisticsBlock3:hover
 {
 	height: 60px;
 	margin-bottom: 0px;
@@ -1799,7 +1796,7 @@ height: 60px;
 	justify-content: center;
 }
 .featuresRigth {
- 
+
     margin-left: 0px;
 }
 .featuresText1 {
@@ -1833,7 +1830,7 @@ height: 60px;
 .featuresRigth
 {
 	width: 100%;
-	
+
 
 }
 .PlanSelect
@@ -1842,7 +1839,7 @@ height: 60px;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	
+
 }
 .Plan
 {
@@ -1853,7 +1850,7 @@ height: 60px;
 	top:100px;
 	background: linear-gradient(0deg, #FFFFFF, #F7F7F7);
 
-	
+
 }
 .featuresRigthTop
 {
@@ -1888,7 +1885,7 @@ text-align: center;
 color: #0B132A;
 margin-top: 20px;
 }
-.PlanSelectText3 
+.PlanSelectText3
 {
 	position: relative;
 	bottom: 20px;
@@ -1915,7 +1912,7 @@ margin-top: 30px;
 .PlanSelect
 {
 	width: 100%;
-	
+
 }
 .Plan1 {
     display: flex;
@@ -1988,7 +1985,7 @@ color: #0B132A;
 }
 .Global
 {
-	
+
 		margin-top: 120px;
 	width: 100%;
 	height: 650px;
@@ -2059,8 +2056,8 @@ color: #0B132A;
 {
 	height: 800px;
 	width: 100%;
-	
-	background: linear-gradient(0deg, #FCFCFC,#FFFFFF); 
+
+	background: linear-gradient(0deg, #FCFCFC,#FFFFFF);
 }
 ._Reviews_, ._Reviews_1 {
     width: 360px;
@@ -2182,16 +2179,16 @@ margin-bottom: 20px;
 	width: 100%;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around; 
+	justify-content: space-around;
 	align-items: center;
 }
 .PanelReviewsLeft
 {
-	
+
 	margin-left: 170px;
 	margin-bottom: 30px;
 
-	
+
 	margin-right: 0px;
 }
 .PanelReviewsRight
@@ -2212,7 +2209,7 @@ margin-bottom: 20px;
 display: flex;
 	flex-direction: row;
 	justify-content: center;
-	align-items: center;	
+	align-items: center;
 }
 .SubscribeButton {
     background: #F53838;
